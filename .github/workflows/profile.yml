@@ -15,28 +15,15 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
+      - uses: actions/checkout@v4
+
       - name: pac-man eats my contributions
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
 
-      - name: stats card
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&bg_color=0d1226&title_color=ffd23f&text_color=f4e8c8&icon_color=ff5d73&ring_color=ffd23f
-          path: dist/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-          fail_on_error: true
-
-      - name: top languages card
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&hide_border=true&bg_color=0d1226&title_color=ffd23f&text_color=f4e8c8
-          path: dist/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-          fail_on_error: true
+      - name: re-skin it to match the profile
+        run: python3 .github/scripts/pacman_theme.py dist/pacman-contribution-graph-dark.svg dist/pacman-8bit.svg
 
       - name: publish to the output branch
         uses: crazy-max/ghaction-github-pages@v4

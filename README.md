@@ -35,19 +35,10 @@
 
 <img src="assets/now.svg" width="100%" alt="Shipping Tỷ Phú Pixel v13 · building Little Sprout · studying OOP, mobile, BI · learning retention the hard way" />
 
-<img src="assets/divider.svg" width="100%" alt="" />
+<img src="assets/h-activity.svg" width="100%" alt="Activity" />
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/PmSubin/PmSubin/output/stats.svg" height="160" alt="GitHub stats" />
-  <img src="https://raw.githubusercontent.com/PmSubin/PmSubin/output/top-langs.svg" height="160" alt="top languages" />
-</div>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PmSubin/PmSubin/output/pacman-contribution-graph-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PmSubin/PmSubin/output/pacman-contribution-graph.svg" />
-    <img src="https://raw.githubusercontent.com/PmSubin/PmSubin/output/pacman-contribution-graph.svg" width="100%" alt="pac-man eating my contributions" />
-  </picture>
+  <img src="https://raw.githubusercontent.com/PmSubin/PmSubin/output/pacman-8bit.svg" width="100%" alt="pac-man eating my contributions" />
 </div>
 
 <img src="assets/divider.svg" width="100%" alt="" />
