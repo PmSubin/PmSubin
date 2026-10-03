@@ -20,7 +20,7 @@
   <b>Tỷ Phú Pixel</b> started as a tiny clicker and kept growing — 120+ pets, gacha banners, domains, a world chat
   and a real leaderboard with server-side anti-cheat. Currently shipped as a single HTML file (installable as a PWA)
   and still growing fast; a proper modular codebase is on the roadmap.<br/>
-  <sub>New stuff ships at <a href="https://typhupixel.com">typhupixel.com</a>.</sub>
+  <sub>Play at <a href="https://typhupixel.com">typhupixel.com</a> · screenshots &amp; release notes in <a href="https://github.com/PmSubin/typhupixel">PmSubin/typhupixel</a></sub>
 </p>
 
 <img src="assets/projects.svg" width="100%" alt="Projects: Tỷ Phú Pixel (live), Little Sprout (in development), Rumble Ranch (next up), Tiny Skyline (planned), Pocket Dungeon (idea)" />
