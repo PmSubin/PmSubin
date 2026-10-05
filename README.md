@@ -8,7 +8,7 @@
 </p>
 
 <div align="center">
-  <img src="assets/runner.svg?v=3" width="100%" alt="auto-playing 8-bit runner — a cow jumps over fences and collects coins" />
+  <img src="assets/runner.svg?v=4" width="100%" alt="auto-playing 8-bit runner — a cow jumps over fences and collects coins" />
 </div>
 
 <img src="assets/h-about.svg?v=2" width="100%" alt="About me" />
