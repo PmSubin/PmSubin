@@ -4,7 +4,8 @@
 
 <p align="center">
   <a href="https://typhupixel.com"><img src="assets/btn-site.svg?v=2" height="36" alt="typhupixel.com" /></a>&nbsp;
-  <a href="https://github.com/PmSubin"><img src="assets/btn-github.svg?v=2" height="36" alt="github.com/PmSubin" /></a>
+  <a href="https://github.com/PmSubin"><img src="assets/btn-github.svg?v=2" height="36" alt="github.com/PmSubin" /></a>&nbsp;
+  <a href="https://pmsubin.github.io/subel-phongchat/"><img src="assets/btn-subel.svg?v=1" height="36" alt="Subel chat room" /></a>
 </p>
 
 <div align="center">
@@ -30,6 +31,18 @@
 </p>
 
 <img src="assets/notes.svg?v=2" width="100%" alt="Design notes: one file for now · server-side anti-cheat · the first 5 minutes · what is next" />
+
+<div align="center">
+  <a href="https://pmsubin.github.io/subel-phongchat/"><img src="assets/subel.svg?v=1" width="100%" alt="Subel — AI roleplay chat room in the browser (click to open)" /></a>
+</div>
+
+<p align="center">
+  <b>Subel</b> is a roleplay chat room that runs entirely in the browser. Bring your own key for Gemini, ChatGPT, Claude,
+  OpenRouter, DeepSeek or Grok; every NPC gets a card with a heart meter and what they really think of you, and a tiny cow
+  &amp; duck live on the screen, reading along and roasting the story.<br/>
+  <sub>Open it at <a href="https://pmsubin.github.io/subel-phongchat/">pmsubin.github.io/subel-phongchat</a> — no install, works on phones,
+  your stories stay in your own browser. Source in <a href="https://github.com/PmSubin/subel-phongchat">PmSubin/subel-phongchat</a>.</sub>
+</p>
 
 <img src="assets/projects.svg?v=2" width="100%" alt="Projects: Tỷ Phú Pixel (live), Little Sprout (in development), Rumble Ranch (next up), Tiny Skyline (planned), Pocket Dungeon (idea)" />
 
