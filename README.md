@@ -1,6 +1,11 @@
 <div align="center">
-  <a href="https://github.com/PmSubin"><img src="assets/header.svg?v=2" width="100%" alt="Hi, I'm Subin — I make random things on the internet." /></a>
+  <a href="https://github.com/PmSubin"><img src="assets/header.svg?v=2" width="100%" alt="Hi, I'm Subin (Nguyễn Hoàng Phúc) — I make random things on the internet." /></a>
 </div>
+
+<p align="center">
+  <b>Nguyễn Hoàng Phúc</b> · Subin · PmSubin<br/>
+  IT student at UEH (University of Economics Ho Chi Minh City) · founder of <a href="https://typhupixel.com">Tỷ Phú Pixel</a>
+</p>
 
 <p align="center">
   <a href="https://typhupixel.com"><img src="assets/btn-site.svg?v=2" height="36" alt="typhupixel.com" /></a>&nbsp;
