@@ -17,10 +17,6 @@
   <img src="assets/runner.svg?v=4" width="100%" alt="auto-playing 8-bit runner — a cow jumps over fences and collects coins" />
 </div>
 
-<img src="assets/h-about.svg?v=2" width="100%" alt="About me" />
-
-<img src="assets/about.svg?v=3" width="100%" alt="Student at UEH · builds and runs complete systems solo · manages projects end to end · product-minded · long game: build things people use, then a company around them" />
-
 <img src="assets/h-projects.svg?v=2" width="100%" alt="Projects" />
 
 <div align="center">
