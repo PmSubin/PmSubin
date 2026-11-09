@@ -70,7 +70,7 @@
 </div>
 
 <p align="center">
-  <b>SubelJapan</b> — Japanese learning web app for Vietnamese beginners: Hiragana, Katakana and Kanji with stroke-by-stroke writing checks, 56 bite-sized lessons, 9 mini-games and an AI tutor powered by Claude.<br/>
+  <b>SubelJapan</b> — Japanese learning web app for Vietnamese beginners: Hiragana, Katakana and Kanji with stroke-by-stroke writing checks, 56 bite-sized lessons and 9 mini-games.<br/>
   <sub><a href="https://pmsubin.github.io/SubelJapan/">Live demo</a> · <a href="https://github.com/PmSubin/SubelJapan">Source code</a></sub>
 </p>
 
@@ -83,6 +83,21 @@
   <b>Reel A Fish</b> — koi fishing game with 200 collectible koi, server-side catch odds and rebirth progression. Built with Luau and Rojo.<br/>
   <sub>In development</sub>
 </p>
+
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PmSubin/PmSubin/main/assets/light/h-ai.svg?v=1">
+  <img src="assets/h-ai.svg?v=1" width="100%" alt="AI" />
+</picture>
+
+<p align="center">
+  <b>AI in products</b> — multi-model chat in SUBEL Story Room: Gemini, ChatGPT, Claude, OpenRouter, DeepSeek and Grok.<br/>
+  <b>AI agents</b> — Claude Code with MCP tools writes, tests and playtests code, including driving Roblox Studio for Reel A Fish.<br/>
+  <b>AI art</b> — GPT image generation for game art, with prompts built from game data.
+</p>
+
+<div align="center">
+  <img src="assets/ai.svg?v=1" width="100%" alt="Gemini API, OpenAI API, Claude API, OpenRouter, Claude Code, MCP" />
+</div>
 
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PmSubin/PmSubin/main/assets/light/h-stack.svg?v=1">
