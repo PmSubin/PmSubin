@@ -1,0 +1,53 @@
+# Bot giữ chuỗi GitHub: mỗi ngày ghi một dòng vào nhat-ky/chuoi.md (nếu hôm nay chưa ghi) bằng tên PmSubin,
+# để ô đóng góp của ngày hôm đó luôn xanh — kể cả hôm không có commit nào khác.
+#
+# - Commit ký bằng email riêng tư noreply của tài khoản PmSubin (GitHub chỉ tính đóng góp cho commit mang email thuộc tài khoản).
+# - Chạy 2 lần: 07:37 và 12:37 giờ UTC (14:37 và 19:37 giờ Việt Nam). Giờ này nằm giữa ngày theo cả giờ UTC lẫn giờ Việt Nam,
+#   nên lỡ GitHub chạy trễ vài tiếng thì commit vẫn rơi đúng ngày. Lần thứ 2 thấy hôm nay ghi rồi thì bỏ qua.
+# - Đẩy bằng GITHUB_TOKEN nên không kích hoạt workflow khác (không sinh thêm mail).
+name: Giữ chuỗi GitHub
+
+on:
+  schedule:
+    - cron: "37 7 * * *"
+    - cron: "37 12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: giu-chuoi
+  cancel-in-progress: false
+
+jobs:
+  ghi-nhat-ky:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Ghi một dòng nhật ký hôm nay (nếu chưa có)
+        env:
+          GIT_NAME: PmSubin
+          GIT_EMAIL: 199656211+PmSubin@users.noreply.github.com
+        run: |
+          set -e
+          TODAY=$(TZ=Asia/Ho_Chi_Minh date +%F)
+          FILE=nhat-ky/chuoi.md
+          mkdir -p nhat-ky
+          [ -f "$FILE" ] || printf '# Nhật ký giữ chuỗi\n\nMỗi ngày một dòng, do bot `.github/workflows/giu-chuoi.yml` ghi.\n\n' > "$FILE"
+          if grep -q "^- $TODAY" "$FILE"; then
+            echo "Hôm nay ($TODAY) đã ghi rồi, bỏ qua."
+            exit 0
+          fi
+          echo "- $TODAY · $(TZ=Asia/Ho_Chi_Minh date +%H:%M) · tiếp tục học và làm SubelJapan" >> "$FILE"
+          git config user.name "$GIT_NAME"
+          git config user.email "$GIT_EMAIL"
+          git add "$FILE"
+          git commit -m "Nhật ký ngày $TODAY"
+          for i in 1 2 3; do
+            if git pull --rebase -q origin main && git push -q origin HEAD:main; then echo "Đã ghi nhật ký $TODAY"; exit 0; fi
+            sleep 7
+          done
+          echo "Không đẩy được sau 3 lần thử"; exit 1
