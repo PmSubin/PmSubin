@@ -8,3 +8,4 @@ Mỗi ngày một dòng, do bot `.github/workflows/giu-chuoi.yml` ghi.
 - 2026-11-24 · 02:28 · tiếp tục học và làm SubelJapan
 - 2026-11-25 · 02:05 · tiếp tục học và làm SubelJapan
 - 2026-11-26 · 01:10 · tiếp tục học và làm SubelJapan
+- 2026-11-27 · 00:53 · tiếp tục học và làm SubelJapan
